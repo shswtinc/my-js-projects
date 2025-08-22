@@ -1,0 +1,9 @@
+Profindr
+
+Filtering: Profiles are instantly filtered.
+
+Users can quickly find  profiles by name
+
+A clean and simple layout.
+
+Tech Stack: HTML, CSS, and JavaScript.

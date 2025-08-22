@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    button {
+        background-color: aquamarine;
+        border-radius: 3px;
+
+    }
+
+    small {
+        color: red;
+        font-size: 9px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #nameWarn {
+        display: none;
+    }
+</style>
+
+<body>
+    <form>
+        <input type="text" required pattern="[a-z]{3,8}" id="name" placeholder="Name">
+        <div id="nameWarn">
+            <br>
+            <small>Your name should be greater than 2 characters.</small>
+        </div>
+        <br><br>
+        <input type="number" placeholder="Age" min="14">
+        <br><br>
+        <input id="mail" type="email" placeholder="Email">
+        <br><br>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Tell us about yourself"></textarea>
+        <br>
+    <button>Submit</button>
+    </form>
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-color:rgb(40, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.div_row{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+input{
+    flex-direction: column;
+    height: 30px;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: rgb(74, 74, 74);
+    color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+     
+}
+input:hover{
+    box-shadow:  0 0 20px 5px rgba(119, 119, 119, 0.2);
+    transform: scale(1.1); 
+
+}
+input ::placeholder{
+    color: rgba(226, 226, 226, 0.6);
+}
+.main h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
+}
+.profile_card{
+    display: flex;
+    justify-content:start;
+    align-items: end;
+    position: relative;
+    height: 220px;
+    width: 175px;
+    border: 0.1px solid black;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.profile_card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 0.1px solid rgb(36, 20, 20);
+    border-radius: 8px;
+}
+.card_info{
+    position: absolute;
+    padding: 8px;
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     -webkit-text-stroke: 0.2px rgb(255, 119, 0);
+}
+.profile_card:hover{
+    box-shadow:  0 0 20px 5px rgba(119, 119, 119, 0.2);
+    transform: scale(1.1); 
+}
